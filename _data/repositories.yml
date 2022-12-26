@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - thaqibm
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - thaqibm/age
+  - rust-lang/rustfmt
+  - thaqibm/akka-typed-udp-discovery
+
+
