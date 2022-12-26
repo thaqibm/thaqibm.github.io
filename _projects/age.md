@@ -4,14 +4,14 @@ title: AGE Game Engine
 description: An Entity Component System based game engine written in C++17
 img: assets/img/age.png
 importance: 1
-category: work
+category: Personal
 ---
 
 # Game Engine Overview 
 The game executes the update method each cycle and these are the following things that happen:
 
 {% raw %}
-```C++
+```cpp
 /**
 * Update cycle:
 * - Detect Collisions (Collision System)
@@ -28,7 +28,7 @@ The game executes the update method each cycle and these are the following thing
 An entity is just a index of a game object. 
 Each EntityID is just a unique 32 bit integer. The maximum number of entities that the game can have
 must be determined at *compile time*.
-```C++
+```cpp
 using EntityID = std::uint32_t;
 static const constexpr std::size_t MAX_ENTT = 5000;
 ```
@@ -38,9 +38,9 @@ A Component is any piece of pure data. A user can attach any component to an ent
 will change based on the data added. For example the some physics based components are:
 
 {% raw %}
-```C++
+```cpp
 // Components/default/default.h
-struct Vec2d{ float x; float y; }
+struct Vec2d{ float x; float y; };
 struct Position{
 Vec2d p;
 float z; // height
@@ -56,7 +56,7 @@ will change based on that. Attaching / Detaching components to an entity is done
 to make it easier to save predefined data I’ve created a prefab template class.
 
 {% raw %}
-```C++
+```cpp
 template<typename T> void attachComponent(EntityID id, T component)
 template<typename T> void detachComponent(EntityID id)
 // Examples:
@@ -71,19 +71,19 @@ This is a feature to make it easier to add stored entities with predefined data.
 to type out attach every time. For example the bullet prefab in the example above is defined as:
 
 {% raw %}
-```C++
+```cpp
 // Prefab.h
 Prefab<AGE_COMPONENTS::Position, AGE_COMPONENTS::Drawable, AGE_COMPONENTS::Velocity, AGE_COMPONENTS::acceleration, 
     AGE_COMPONENTS::BoxCollider, AGE_COMPONENTS::Mass> bullet(
-    "bullet",
-    {{-1,-1},0, 0,0},
-    {{{’o’}}},
-    {{0,0}},
-    {{0,0}},
-    {1,1},
-    {1.0f}
-);
-```
+            "bullet",
+            {{-1,-1},0, 0,0},
+            {{{’o’}}},
+            {{0,0}},
+            {{0,0}},
+            {1,1},
+            {1.0f}
+            );
+    ```
 {% endraw %}
 
 ## System 
@@ -100,10 +100,10 @@ make these bit sets at compile time.
 
 Example physics system:
 {% raw %}
-```C++
+```cpp
 bool update() override{
-float dt = DeltaTime(); // provided by System_base
-for(const auto& et : Entities){ // contains all entities with required signature
+    float dt = DeltaTime(); // provided by System_base
+    for(const auto& et : Entities){ // contains all entities with required signature
         auto& pos = ComponentData.getComponentData<AGE_COMPONENTS::Position>(et);
         auto& vel = ComponentData.getComponentData<AGE_COMPONENTS::Velocity>(et);
         auto& acc = ComponentData.getComponentData<AGE_COMPONENTS::Acceleration>(et);
