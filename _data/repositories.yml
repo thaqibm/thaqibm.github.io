@@ -2,6 +2,7 @@ github_users:
   - thaqibm
 
 github_repos:
+  - thaqibm/Latex_OCR_TF
   - thaqibm/age
   - rust-lang/rustfmt
   - thaqibm/akka-typed-udp-discovery
