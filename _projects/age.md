@@ -83,7 +83,7 @@ Prefab<AGE_COMPONENTS::Position, AGE_COMPONENTS::Drawable, AGE_COMPONENTS::Veloc
             {1,1},
             {1.0f}
             );
-    ```
+```
 {% endraw %}
 
 ## System 
