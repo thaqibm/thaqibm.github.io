@@ -9,6 +9,8 @@ category: work
 
 # Game Engine Overview 
 The game executes the update method each cycle and these are the following things that happen:
+
+{% raw %}
 ```C++
 /**
 * Update cycle:
@@ -20,6 +22,8 @@ The game executes the update method each cycle and these are the following thing
 * - Render (Render System)
 **/
 ```
+{% endraw %}
+
 ## Entity
 An entity is just a index of a game object. 
 Each EntityID is just a unique 32 bit integer. The maximum number of entities that the game can have
@@ -33,6 +37,7 @@ static const constexpr std::size_t MAX_ENTT = 5000;
 A Component is any piece of pure data. A user can attach any component to an entity and its behavior
 will change based on the data added. For example the some physics based components are:
 
+{% raw %}
 ```C++
 // Components/default/default.h
 struct Vec2d{ float x; float y; }
@@ -44,9 +49,13 @@ float width; };
 struct Velocity{ Vec2d v; };
 struct Acceleration{ Vec2d a; };
 ```
+{% endraw %}
+
 These are just pure pieces of POD data the user can attach to any entity and their behavior / movement
 will change based on that. Attaching / Detaching components to an entity is done with templates and
 to make it easier to save predefined data I’ve created a prefab template class.
+
+{% raw %}
 ```C++
 template<typename T> void attachComponent(EntityID id, T component)
 template<typename T> void detachComponent(EntityID id)
@@ -55,10 +64,13 @@ GAME1.attachComponent<PlayerTag>(player {GAME1.createEntityFromPrefab(bullet), 0
 GAME1.attachComponent<AGE_COMPONENTS::Velocity>(er, {{0,0}});
 GAME1.attachComponent<AGE_COMPONENTS::Solid_tag>(er, {});
 ```
+{% endraw %}
 
 ### Prefabs
 This is a feature to make it easier to add stored entities with predefined data. So the user does not need
 to type out attach every time. For example the bullet prefab in the example above is defined as:
+
+{% raw %}
 ```C++
 // Prefab.h
 Prefab<AGE_COMPONENTS::Position, AGE_COMPONENTS::Drawable, AGE_COMPONENTS::Velocity, AGE_COMPONENTS::acceleration, 
@@ -72,6 +84,7 @@ Prefab<AGE_COMPONENTS::Position, AGE_COMPONENTS::Drawable, AGE_COMPONENTS::Veloc
     {1.0f}
 );
 ```
+{% endraw %}
 
 ## System 
 A System is the core logic and it handles mutating game state / movement of entities and the core game
@@ -86,6 +99,7 @@ every time a user attaches a component they call a template function that is wha
 make these bit sets at compile time.
 
 Example physics system:
+{% raw %}
 ```C++
 bool update() override{
 float dt = DeltaTime(); // provided by System_base
@@ -100,5 +114,7 @@ for(const auto& et : Entities){ // contains all entities with required signature
     return true;
 }
 ```
+{% endraw %}
+
 More on [AGE Github](https://github.com/thaqibm/age)
 
