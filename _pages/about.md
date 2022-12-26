@@ -21,7 +21,7 @@ Software Engineer Intern at [Radix Labs](https://www.radix.bio/).
 
 As a software developer, I have a passion for working with low-level systems and optimizing code for performance. 
 I also enjoy exploring functional programming techniques and solving mathematical problems. 
-Overall, I am a curious learner with a strong interest in computer science and math.  Currently, 
-I am focusing on learning about distributed systems and data science.
+
+I am a curious learner with a strong interest in distributed systems and low-level systems programming.
 
 
