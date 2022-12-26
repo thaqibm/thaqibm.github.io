@@ -4,7 +4,7 @@ title: AGE Game Engine
 description: An Entity Component System based game engine written in C++17
 img: assets/img/age.png
 importance: 1
-category: Personal
+category: Fun
 ---
 
 # Game Engine Overview 
