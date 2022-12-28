@@ -22,23 +22,23 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Software Engineer Algorithms and Distributed Systems (Fulltime, Co-op)
+    - title: Software Engineer Algorithms and Distributed Systems (full-time, Co-op)
       institution: Radix Labs, Boston, MA, USA
       year: 09/2022
       description:
-        - Developed a distributed systems to support lab automation products.
-        - Developed a distributed file storage service from the ground up to support lab database. 
+        - Developed distributed systems to support lab automation products.
+        - Developed a distributed file storage service from the ground up to support the lab database. 
           Implemented highly asynchronous design to improve file access and upload times by 50%.
         - title: Designed and implemented a unique actor discovery system for Scala-Akka using UDP multicast. Eliminating the need for centralized services.
           contents:
-          - <a href = https://github.com/thaqibm/akka-typed-udp-discovery>Github Repo</a>
+          - <a href = https://github.com/thaqibm/akka-typed-udp-discovery>GitHub Repo</a>
         - Achieved top rating of <b>Outstanding</b> on evaluation 
 
-    - title: Computational Research Associate (Part-time, Contract)
+    - title: Computational Research Associate (part-time, Contract)
       institution: Cuddington Lab (University of Waterloo), Waterloo, ON, Canada
       year: 04/2022 – 08/2022
       description:
-        - Spearheaded the development and testing of disease tracking mobile applications for Android and iOS. 
+        - Spearheaded the development and testing of disease-tracking mobile applications for Android and iOS. 
           The apps were used by 1800 students to collect disease spread data and played a critical role in tracking 
           and understanding the spread of the disease.
         - Contributed to scientific research by creating data visualizations, statistical models, 
@@ -47,21 +47,21 @@
         - Created interactive data visualizations using R and Python to help the scientists better understand their 
           results and communicate them effectively in presentations and papers.
 
-    - title: Undergraduate Math Tutor (Part-time) 
+    - title: Undergraduate Math Tutor (part-time) 
       institution: University of Waterloo, Waterloo, ON
       year: 04/2022 - 08/2022 
       description:
         - Undergraduate tutor for MATH 237 (Calculus III)
 
-    - title: Scala Software Development Intern (Fulltime, Co-op)
+    - title: Scala Software Development Intern (full-time, Co-op)
       institution: Math Faculty Computing Facility (University of Waterloo), Waterloo, ON, Canada
       year: 01/2022 – 04/2022
       description:
-        - Developed solutions for critical systems used by academic advisors and decision makers. 
+        - Developed solutions for critical systems used by academic advisors and decision-makers. 
         - Ensured the reliability and performance of web services and components through thorough testing.
-        - Remodeled and streamlined existing bulk email web services and web pages to reduce page loading times up to 90%.
+        - Remodeled and streamlined existing bulk email web services and web pages to reduce page loading times by up to 90%.
 
-    - title: Undergraduate Marker (Part-time) 
+    - title: Undergraduate Marker (part-time) 
       institution: University of Waterloo, Waterloo, ON
       year: 09/2021 - 12/2021
       description:
