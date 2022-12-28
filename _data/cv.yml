@@ -1,97 +1,104 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+    - name: Name
+      value: Thaqib M
     - name: Languages
-      value: English, German
+      value: English, Hindi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: BMath
+      institution: University of Waterloo, Waterloo, Canada
+      year: 2020 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Bachelor of Math in Computer Science and Statistics
+        - GPA: 3.91/4.00
+        - title: Relevant Coursework.
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - CS 246E Object-Oriented Software Development (Enriched).
+            - CS 371 Introduction to Computational Mathematics.
+            - ECE 459 Programming for Performance.
+    - title: International Baccalaureate Diploma (IB DP)
+      institution: Aga Khan Academy, Hyderabad, India 
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
+        - 41/45 Points (Top 2% of Students)
+        - Subjects: Higher Level Math, Physics, and Chemistry 
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Engineer Algorithms and Distributed Systems (Fulltime, Co-op)
+      institution: Radix Labs, Boston, MA, USA
+      year: September 2022 - Current
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed a distributed systems to support lab automation products.
+        - Developed a distributed file storage service from the ground up to support lab database. 
+          Implemented highly asynchronous design to improve file access and upload times by 50%
+      - title: Designed and implemented a unique actor discovery system for Scala-Akka using UDP multicast.
+               Eliminating the need for centralized servicescontents
+        contents:
+          - <a href = https://github.com/thaqibm/akka-typed-udp-discovery>Github Repo</a>
+        - Achieved top rating of Outstanding on evaluation
+        
+
+    - title: Computational Research Associate (Part-time, Contract)
+      institution: Cuddington Lab (University of Waterloo), Waterloo, ON, Canada
+      year: April 2022 – August 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Spearheaded the development and testing of disease tracking mobile applications for Android and iOS. 
+          The apps were used by 1800 students to collect disease spread data and played a critical role in tracking 
+          and understanding the spread of the disease.
+        - Contributed to scientific research by creating data visualizations, statistical models, 
+          and tests for disease spread data using R and Python. Utilized data analysis tools and techniques 
+          to aid in the understanding of disease spread and inform decision-making processes.
+        - Created interactive data visualizations using R and Python to help the scientists better understand their 
+          results and communicate them effectively in presentations and papers.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Undergraduate Math Tutor (Part-time) 
+      institution: University of Waterloo, Waterloo, ON
+      year: April 2022 - August 2022
       description:
+        - Undergraduate tutor for MATH 237 (Calculus III)
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Scala Software Development Intern (Fulltime, Co-op)
+      institution: Math Faculty Computing Facility (University of Waterloo), Waterloo, ON, Canada
+      year: January 2022 – April 2022
+      description:
+        - Developed solutions for critical systems used by academic advisors and decision makers. 
+        - Ensured the reliability and performance of web services and components through thorough testing.
+        - Remodeled and streamlined existing bulk email web services and web pages to reduce page loading times up to 90%.
+
+    - title: Undergraduate Marker (Part-time) 
+      institution: University of Waterloo, Waterloo, ON
+      year: September 2021 - December 2021
+      description:
+        - Undergraduate marker for MATH117 (Calculus 1 for Engineering)
+
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/thaqibm/age">AGE Game Engine</a>
+      year: 2021 - Now
+      description: Game Engine Based on the Entity Component System written in C++
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2020 - 2025
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Faculty of Math Global Scholarship. Awarded to 12 undergraduate students. Selection based on
+          academic standing in mathematics and record of accomplishments in mathematics. (18000 CAD)
+    - year: 2022 - 2023
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Computer Science Upper Year Scholarship. Awarded to 8 undergraduate students based on academic achievement 
+          and a demonstrated passion for Computer Science. (15000 CAD)
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Speed Cubing (Personal best 12.5s).
+
