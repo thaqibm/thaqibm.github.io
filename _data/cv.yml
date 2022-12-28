@@ -6,7 +6,7 @@
       year: 2020 - 2025
       description:
         - Bachelor of Math in Computer Science and Statistics
-        - GPA 3.91/4.00
+        - <b>GPA:</b> 3.91/4.00
         - title: Relevant Coursework.
           contents:
             - CS 246E Object-Oriented Software Development (Enriched).
@@ -87,6 +87,11 @@
         - Computer Science Upper Year Scholarship. Awarded to 8 undergraduate students based on academic achievement 
           and a demonstrated passion for Computer Science. (15000 CAD)
 
+- title: Technical Skills <img src="https://www.vectorlogo.zone/logos/scala-lang/scala-lang-ar21.svg" width="20" height="20">
+  type: list
+  contents:
+    - <b>Languages:</b>  Scala, Python, C/C++, Rust, SQL, JavaScript/TypeScript, Haskell
+    - <b>Libraries:</b> React, NumPy,Scipy, Tensorflow, MatPlotLib, Scala-Play, Akka, Scala-cats, Warp
 - title: Other Interests
   type: list
   contents:
