@@ -1,7 +1,7 @@
 ---
 layout: page
-title: University Notes
-description: a project that redirects to another website
+title: Notes
+description: Universiy Notes
 img: assets/img/notes.png
 redirect: https://thaqibm.github.io/uwnotes/
 importance: 1
