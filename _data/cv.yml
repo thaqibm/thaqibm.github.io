@@ -1,11 +1,3 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Name
-      value: Thaqib M
-    - name: Languages
-      value: English, Hindi
-
 - title: Education
   type: time_table
   contents:
