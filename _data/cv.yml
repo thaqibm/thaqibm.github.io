@@ -37,12 +37,10 @@
         - Developed a distributed systems to support lab automation products.
         - Developed a distributed file storage service from the ground up to support lab database. 
           Implemented highly asynchronous design to improve file access and upload times by 50%
-      - title: Designed and implemented a unique actor discovery system for Scala-Akka using UDP multicast.
-               Eliminating the need for centralized servicescontents
-        contents:
+        - Achieved top rating of Outstanding on evaluation 
+        - title: Designed and implemented a unique actor discovery system for Scala-Akka using UDP multicast. Eliminating the need for centralized servicescontents
+          contents:
           - <a href = https://github.com/thaqibm/akka-typed-udp-discovery>Github Repo</a>
-        - Achieved top rating of Outstanding on evaluation
-        
 
     - title: Computational Research Associate (Part-time, Contract)
       institution: Cuddington Lab (University of Waterloo), Waterloo, ON, Canada
