@@ -14,7 +14,7 @@
       year: 2020 - 2025
       description:
         - Bachelor of Math in Computer Science and Statistics
-        - GPA: 3.91/4.00
+        - GPA 3.91/4.00
         - title: Relevant Coursework.
           contents:
             - CS 246E Object-Oriented Software Development (Enriched).
@@ -25,14 +25,14 @@
       year: 2020
       description:
         - 41/45 Points (Top 2% of Students)
-        - Subjects: Higher Level Math, Physics, and Chemistry 
+        - Higher Level Math, Physics, and Chemistry 
 
 - title: Experience
   type: time_table
   contents:
     - title: Software Engineer Algorithms and Distributed Systems (Fulltime, Co-op)
       institution: Radix Labs, Boston, MA, USA
-      year: September 2022 - Current
+      year: 09/2022
       description:
         - Developed a distributed systems to support lab automation products.
         - Developed a distributed file storage service from the ground up to support lab database. 
@@ -44,7 +44,7 @@
 
     - title: Computational Research Associate (Part-time, Contract)
       institution: Cuddington Lab (University of Waterloo), Waterloo, ON, Canada
-      year: April 2022 – August 2022
+      year: 04/2022 – 08/2022
       description:
         - Spearheaded the development and testing of disease tracking mobile applications for Android and iOS. 
           The apps were used by 1800 students to collect disease spread data and played a critical role in tracking 
@@ -57,13 +57,13 @@
 
     - title: Undergraduate Math Tutor (Part-time) 
       institution: University of Waterloo, Waterloo, ON
-      year: April 2022 - August 2022
+      year: 04/2022 - 08/2022 
       description:
         - Undergraduate tutor for MATH 237 (Calculus III)
 
     - title: Scala Software Development Intern (Fulltime, Co-op)
       institution: Math Faculty Computing Facility (University of Waterloo), Waterloo, ON, Canada
-      year: January 2022 – April 2022
+      year: 01/2022 – 04/2022
       description:
         - Developed solutions for critical systems used by academic advisors and decision makers. 
         - Ensured the reliability and performance of web services and components through thorough testing.
@@ -71,7 +71,7 @@
 
     - title: Undergraduate Marker (Part-time) 
       institution: University of Waterloo, Waterloo, ON
-      year: September 2021 - December 2021
+      year: 09/2021 - 12/2021
       description:
         - Undergraduate marker for MATH117 (Calculus 1 for Engineering)
 
