@@ -4,6 +4,7 @@ title: Notes
 description: Universiy Notes
 img: assets/img/notes.png
 redirect: https://thaqibm.github.io/uwnotes/
-importance: 1
+importance: 2
 category: Work
+github: https://github.com/thaqibm/uwnotes
 ---

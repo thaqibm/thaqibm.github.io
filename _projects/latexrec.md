@@ -4,7 +4,8 @@ title: LaTeX Rec
 description: Training model for math character recognition
 img: assets/img/latexocr.png
 importance: 4
-category: fun
+category: Fun
+github: https://github.com/thaqibm/Latex_OCR_TF
 ---
 Training model for LaTeX math symbol recognition.
 
