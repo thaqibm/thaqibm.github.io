@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Actor discovery on local networks
-description: Local actor discovery in akka **(typed)** using UDP multicasts
+title: Akka actor discovery
+description: Local actor discovery in akka <b>typed</b> using UDP multicasts
 img: assets/img/udp.png
 importance: 1
 category: Work
