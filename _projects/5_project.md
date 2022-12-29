@@ -7,18 +7,10 @@ importance: 3
 category: Fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+This post describes how to use Scala and Akka to implement simple actor discovery on local networks using UDP multicasts.
+I aimed to ensure that the discovery process was both reliable and able to withstand errors. 
+Additionally, I wanted to avoid the issue of ["split brain"](https://en.wikipedia.org/wiki/Split-brain_(computing)), 
+in which the system becomes divided and unable to function properly.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
