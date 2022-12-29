@@ -17,11 +17,16 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 Student at [University of Waterloo](https://uwaterloo.ca/). 
+
+
 Software Engineer Intern at [Radix Labs](https://www.radix.bio/).
 
-As a software developer, I have a passion for working with low-level systems and optimizing code for performance. 
-I also enjoy exploring functional programming techniques and solving mathematical problems. 
 
-I am a curious learner with a strong interest in distributed systems and low-level systems programming.
 
+[CV](https://thaqibm.github.io/cv/)
+
+[University Notes](https://thaqibm.github.io/uwnotes/)
+
+
+<em> Monad is a monoid in the category of endofunctors </rm>
 
