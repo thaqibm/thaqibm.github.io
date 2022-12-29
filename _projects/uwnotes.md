@@ -7,4 +7,5 @@ redirect: https://thaqibm.github.io/uwnotes/
 importance: 2
 category: Work
 github: https://github.com/thaqibm/uwnotes
+github_stars: 9
 ---
