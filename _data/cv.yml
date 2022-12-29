@@ -16,7 +16,7 @@
       institution: Aga Khan Academy, Hyderabad, India 
       year: 2020
       description:
-        - 41/45 Points (Top 2% of Students)
+        - 41/45 Points
         - Higher Level Math, Physics, and Chemistry 
 
 - title: Experience
@@ -81,19 +81,18 @@
     - year: 2020 - 2025
       items: 
         - Faculty of Math Global Scholarship. Awarded to 12 undergraduate students. Selection based on
-          academic standing in mathematics and record of accomplishments in mathematics. (18000 CAD)
+          academic standing in mathematics and record of accomplishments in mathematics. 
     - year: 2022 - 2023
       items: 
         - Computer Science Upper Year Scholarship. Awarded to 8 undergraduate students based on academic achievement 
-          and a demonstrated passion for Computer Science. (15000 CAD)
-
+          and a demonstrated passion for Computer Science. 
 - title: Technical Skills 
   type: list
   contents:
     - <b>Languages:</b>  Scala, Python, C/C++, Rust, SQL, JavaScript/TypeScript, Haskell
     - <b>Libraries:</b> React, NumPy,Scipy, Tensorflow, MatPlotLib, Scala-Play, Akka, Scala-cats, Warp
-- title: Other Interests
+- title: Other
   type: list
   contents:
-    - <u>Hobbies:</u> Speed Cubing (Personal best 12.5s).
-
+    - I'm a puzzle enthusiast, and I've got a collection of 15 cube and combination puzzles that is always growing. 
+    - I am a firm believer that veg biryani is not real biryani.
