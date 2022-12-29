@@ -4,7 +4,7 @@ title: Actor discovery on local networks
 date: 2021-12-02 17:09:00
 description: Local actor discovery in akka **(typed)** using UDP
 tags: scala, akka
-categories: sample-posts
+categories: Work
 ---
 
 This post describes how to use Scala and Akka to implement simple actor discovery on local networks using UDP multicasts.
