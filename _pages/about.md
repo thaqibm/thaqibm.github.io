@@ -16,11 +16,11 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Student at [University of Waterloo](https://uwaterloo.ca/). 
+Student at [University of Waterloo](https://uwaterloo.ca/)
 
-Software Engineer Intern at [Radix Labs](https://www.radix.bio/).
+Software Engineer Intern at [Radix Labs](https://www.radix.bio/)
 
-<em> Currently looking for Spring 2023 Internships. [CV](https://thaqibm.github.io/cv/)  </em>
+<em> Currently looking for Spring 2023 Internships [CV](https://thaqibm.github.io/cv/)  </em>
 
 
 
