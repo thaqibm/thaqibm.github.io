@@ -6,5 +6,6 @@ github_repos:
   - thaqibm/age
   - rust-lang/rustfmt
   - thaqibm/akka-typed-udp-discovery
+  - thaqibm/uwnotes
 
 
