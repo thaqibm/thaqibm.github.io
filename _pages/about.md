@@ -18,15 +18,9 @@ social: true  # includes social icons at the bottom of the page
 ---
 Student at [University of Waterloo](https://uwaterloo.ca/). 
 
-
 Software Engineer Intern at [Radix Labs](https://www.radix.bio/).
 
+<em> Currently looking for Spring 2023 Internships. [CV](https://thaqibm.github.io/cv/)  </em>
 
 
-[CV](https://thaqibm.github.io/cv/)
-
-[University Notes](https://thaqibm.github.io/uwnotes/)
-
-
-<em> Monad is a monoid in the category of endofunctors </rm>
 
