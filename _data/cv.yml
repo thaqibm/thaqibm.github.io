@@ -90,7 +90,7 @@
   type: list
   contents:
     - <b>Languages:</b>  Scala, Python, C/C++, Rust, SQL, JavaScript/TypeScript, Haskell
-    - <b>Libraries:</b> React, NumPy,Scipy, Tensorflow, MatPlotLib, Scala-Play, Akka, Scala-cats, Warp
+    - <b>Libraries:</b> React, NumPy, Scipy, Tensorflow, MatPlotLib, Scala-Play, Akka, Scala-cats, Warp
 - title: Other
   type: list
   contents:
