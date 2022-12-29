@@ -4,7 +4,7 @@ title: project 5
 description: a project with a background image
 img: assets/img/udp.png
 importance: 3
-category: Fun
+category: temp
 ---
 
 This post describes how to use Scala and Akka to implement simple actor discovery on local networks using UDP multicasts.
