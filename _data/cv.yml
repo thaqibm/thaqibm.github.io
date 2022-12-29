@@ -24,11 +24,13 @@
   contents:
     - title: Software Engineer Algorithms and Distributed Systems (full-time, Co-op)
       institution: Radix Labs, Boston, MA, USA
-      year: 09/2022
+      year: 09/2022 - 12/2022
       description:
         - Developed distributed systems to support lab automation products.
         - Developed a distributed file storage service from the ground up to support the lab database. 
-          Implemented highly asynchronous design to improve file access and upload times by 50%.
+          Implemented highly asynchronous design to improve file access and upload times.
+        - Rewrote some of the most critical parts of the distributed infrastructure to be significantly more robust and performant.
+          (File storage, Actor discovery, System Runtime).
         - title: Designed and implemented a unique actor discovery system for Scala-Akka using UDP multicast. Eliminating the need for centralized services.
           contents:
           - <a href = https://github.com/thaqibm/akka-typed-udp-discovery>GitHub Repo</a>
