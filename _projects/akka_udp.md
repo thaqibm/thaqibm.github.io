@@ -316,7 +316,8 @@ object Main extends App{
     val singletonManager = ClusterSingleton(sys.toTyped)
     val singletonProxy = singletonManager.init(
             SingletonActor(
-                Behaviors.supervise(ServerActorSink(localInet, remoteInet)).onFailure(SupervisorStrategy.restart),
+                Behaviors.supervise(ServerActorSink(localInet, remoteInet))
+                .onFailure(SupervisorStrategy.restart), 
                 singletonKey
                 )
             )
