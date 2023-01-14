@@ -7,7 +7,6 @@ github_repos:
   - rust-lang/rustfmt
   - thaqibm/akka-typed-udp-discovery
   - thaqibm/uwnotes
-  - thaqibm/nvim
   - thaqibm/simpl_interp
 
 
