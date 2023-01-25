@@ -18,8 +18,6 @@ social: true  # includes social icons at the bottom of the page
 ---
 Student at [University of Waterloo](https://uwaterloo.ca/)
 
-Software Engineer Intern at [Radix Labs](https://www.radix.bio/)
-
 *Currently looking for Spring 2023 Internships [CV](https://thaqibm.github.io/cv/)*
 
 
