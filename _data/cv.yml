@@ -22,9 +22,14 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Undergraduate Math Tutor (part-time) 
+      institution: University of Waterloo, Waterloo, ON
+      year: 01/2023 - Current
+      description:
+        - Undergraduate tutor for MATH 135/136 (Algebra/Linear Algebra I)
     - title: Software Engineer Algorithms and Distributed Systems (full-time, Co-op)
       institution: Radix Labs, Boston, MA, USA
-      year: 09/2022 - 12/2022
+      year: 09/2022 - 01/2023
       description:
         - Developed distributed systems to support lab automation products.
         - Developed a distributed file storage service from the ground up to support the lab database. 
