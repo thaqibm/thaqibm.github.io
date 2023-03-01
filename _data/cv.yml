@@ -3,15 +3,15 @@
   contents:
     - title: BMath
       institution: University of Waterloo, Waterloo, Canada
-      year: 2020 - 2025
+      year: 2020 - 2024
       description:
         - Bachelor of Math in Computer Science and Statistics
         - <a href="https://student.cs.uwaterloo.ca/~tmmohamm/pdfs/SSR_TSRPT.pdf"><b>GPA:</b> 3.91/4.00</a>
         - title: Relevant Coursework.
           contents:
             - CS 246E Object-Oriented Software Development (Enriched).
-            - CS 371 Introduction to Computational Mathematics.
             - ECE 459 Programming for Performance.
+            - CS 798 Advanced Research Topics (Multicore Programming).
     - title: International Baccalaureate Diploma (IB DP)
       institution: Aga Khan Academy, Hyderabad, India 
       year: 2020
@@ -29,7 +29,7 @@
         - Undergraduate tutor for MATH 135/136 (Algebra/Linear Algebra I)
     - title: Software Engineer Algorithms and Distributed Systems (full-time, Co-op)
       institution: Radix Labs, Boston, MA, USA
-      year: 09/2022 - 01/2023
+      year: 09/2022 - 02/2023
       description:
         - Developed distributed systems to support lab automation products.
         - Developed a distributed file storage service from the ground up to support the lab database. 
